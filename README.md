@@ -33,3 +33,7 @@ Expected Output :
 45°F is 7.222222222222222°C
 
 12.Write a JavaScript program to get the website URL (loading page).
+
+For Live pages check https://shivakumarbegari.github.io/Java-Script-Basics/Challenge1/ replace 1 with other numbers for those pages.
+
+
