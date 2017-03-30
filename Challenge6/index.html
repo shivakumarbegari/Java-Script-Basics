@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Challenge 6</title>
+<script src="/Challenge6/main.js"></script>
+</head>
+<body bgcolor="" >
+<p id="p"></p>
+
+<script type="text/javascript">
+var year=window.prompt("Enter a year to determine whether its a leap yeat or not.");
+if(year%4===0||(!year%100&&!year%400)){
+	document.getElementById("p").innerHTML="The Year : "+year+" is a Leap year";
+}
+else{
+	document.getElementById("p").innerHTML="The Year : "+year+" is a not a Leap year";	
+}
+</script>
+
+</body>
+</html>

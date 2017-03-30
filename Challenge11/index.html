@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Challenge 11</title>
+<script src="/Challenge11/main.js"></script>
+</head>
+<body  >
+
+<form>
+	Celcius: <input type="number" id="n1" ><input type="button" value="convert" onClick="ctof()"/><br />
+	Fahrenheit: <input type="number" id="n2" ><input type="button" value="convert" onClick="ftoc()"/><br />
+</form>
+<span id="p"></span>
+<p id="p2"></p>
+<script type="text/javascript">
+
+function ctof(){
+	var n1=document.getElementById("n1").value;
+	var ans=32+((9/5)*n1);
+	document.getElementById("n2").value=ans;
+}
+function ftoc(){
+	var n2=document.getElementById("n2").value;
+	var ans=5*((n2-32)/9);
+	document.getElementById("n1").value=ans;
+}
+</script>
+
+</body>
+</html>
