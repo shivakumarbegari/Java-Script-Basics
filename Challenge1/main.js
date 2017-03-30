@@ -1,7 +1,7 @@
 var d = new Date();
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var day=d.getDay();
-document.getElementById("p").textContent = "Today is : "+ days[day];
+document.getElementById("p").innerHTML = "Today is : "+ days[day];
 var h=d.getHours();
 var min=d.getMinutes();
 var sec=d.getSeconds();
